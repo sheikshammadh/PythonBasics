@@ -1,12 +1,12 @@
-custs=[
-    {'eid':101,'name':'rahul','mob':9490061300},
-    {'eid':102,'name':'sonia','mob':9490061300}
-]
-mobile_numbers=[]
-for cust in custs:
-    mobile_numbers.append(cust['mob'])
+# custs=[
+#     {'eid':101,'name':'rahul','mob':9490061300},
+#     {'eid':102,'name':'sonia','mob':9490061300}
+# ]
+# mobile_numbers=[]
+# for cust in custs:
+#     mobile_numbers.append(cust['mob'])
 
-print(mobile_numbers)
+# print(mobile_numbers)
 
 custs=[
     {'eid':101,'name':'rahul','mob':9490061300},
