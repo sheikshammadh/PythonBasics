@@ -9,3 +9,4 @@ result=0
 def sumof(a,b):
     return a+b
 total=reduce(sumof,prices)# without lambda
+print(total)

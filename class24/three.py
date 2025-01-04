@@ -15,8 +15,8 @@ class account:
         self.ename=ename
         self.amount=amount
     def deposit_amount(self,amount):
-        self.accounr_balance=self.account_balance+amount
-
+        self.amount+=amount
+        print("total amount after depositing:",self.amount)
         
 a1=account(101,"shyam",1000)
 print(a1.__dict__)
@@ -25,6 +25,6 @@ print(a2.__dict__)
 
 
 a1.deposit_amount(4000)
-a2.deposit_amount(3000)
+a2.deposit_amount(1000)
 print(a1.__dict__)
 print(a2.__dict__)
