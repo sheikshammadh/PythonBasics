@@ -21,3 +21,4 @@ for product in new_products:
     csvwrite.writerow([product['pid'],product['pname'],product['price']])
 
 print('New CSV File Created!')
+

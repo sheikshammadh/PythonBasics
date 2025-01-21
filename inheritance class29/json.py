@@ -3,9 +3,7 @@ import requests
 import pymongo
 data = requests.get('https://dummyjson.com/products')
 products=data.json()['products']
-
 new_products=[]
-
 for prod in products:
     new_products.append({
         'pid':prod['id'],
