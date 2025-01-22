@@ -19,3 +19,4 @@ except mysql.connector.Error as err:
 finally:
     cursor.close()
     dbcon.close()
+    
